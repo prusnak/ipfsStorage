@@ -21,9 +21,11 @@ Usage
 
 > ipfsStorage.save()
 < Save successful: QmcuopysRiM4cuA9YkGpwZoTER3JwK6rY2oE6a8ua51cyf
+```
 
-F5 reload page (clear ipfsStorage)
+Reload page with F5 to clear ipfsStorage.
 
+```
 > ipfsStorage
 < Object {}
 
@@ -33,6 +35,8 @@ F5 reload page (clear ipfsStorage)
 > ipfsStorage
 < Object {num: 23, text: "test"}
 ```
+
+Functions `load()` and `save()` return promises which return object data and object hash respectively.
 
 IPFS Gateway Setup
 ------------------
